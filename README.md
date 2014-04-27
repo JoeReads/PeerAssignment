@@ -1,4 +1,4 @@
-Peer Asssignment Getting Data
+Peer Assignment Getting Data
 ========================================================
 * Read in Features text file
 * Select Names for columns
