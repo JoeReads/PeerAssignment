@@ -15,5 +15,7 @@ The files were renamed with .txt extensions
 I then used grep to subset features that included Mean, mean ans std in the variable names.
 These were then combined in the object "MeansAndStd". The table was reveiwed to determine that it contained all the rows and 86 variable columns representing features representing means and standard deviation measurements.
 ## The Tidy Data File
-For the assignment the average of each variable and each subject is needed.
+The Tidy Data file contains the Means and Standard Deviations variables.
+For the assignment the average of each variable and each subject is needed. This is provided along with the Tidy Data File.
 These are produced with colMeans and rowMeans and provided as separate data files ObservationAvg and VariableAvg
+
