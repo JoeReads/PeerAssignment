@@ -12,3 +12,6 @@ MeansAndStd<-cbind(testMm, teststd)
 Tdata<-MeansAndStd
 VariableAvg<- colMeans(MeansAndStd)
 ObservationAvg<-rowMeans(MeansAndStd)
+capture.output(Tdata, file="TidyData", append=TRUE)
+capture.output(ObservatiionAvg, file="ObservationAvg", append=TRUE)
+capture.output(ObservationAvg, file="ObservationAvg", append=TRUE
