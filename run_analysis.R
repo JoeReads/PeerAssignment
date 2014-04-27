@@ -14,4 +14,4 @@ VariableAvg<- colMeans(MeansAndStd)
 ObservationAvg<-rowMeans(MeansAndStd)
 capture.output(Tdata, file="TidyData", append=TRUE)
 capture.output(ObservatiionAvg, file="ObservationAvg", append=TRUE)
-capture.output(ObservationAvg, file="ObservationAvg", append=TRUE
+capture.output(VariableAvg, file="VariableAvg", append=TRUE)
